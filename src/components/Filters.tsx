@@ -1,11 +1,10 @@
-import React from "react";
+
 import { MdOutlineViewSidebar } from "react-icons/md";
 import {
   GiWoodCabin,
   GiFamilyHouse,
   GiSkis,
   GiGrandPiano,
-  GiMushroomGills,
   GiSmallFishingSailboat,
   GiTreehouse,
 } from "react-icons/gi";
