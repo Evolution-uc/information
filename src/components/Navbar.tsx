@@ -7,8 +7,8 @@ import { FaUserCircle,FaSearch  } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className="border-b-5">
-    <div className=" flex items-center justify-between sm:mx-6 md:mx-10 lg:mx-12">
+    <div className="border-0 sticky">
+    <div className=" flex items-center justify-between sm:mx-6 md:mx-10 lg:mx-12 ">
       {/* left */}
       <div className="">
         <img src={mylogo} alt="" />
@@ -25,7 +25,7 @@ function Navbar() {
           <button className="border-l border-x px-6">anyhow</button>
           <button className="w-full text-gray-600/60 pl-2">place</button>
         </div>
-        <div className="">
+        <div className="bg-red-400 text-white pr-1 rounded-s-full ">
         <FaSearch />
         </div>
       </div>

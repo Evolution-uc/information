@@ -1,5 +1,6 @@
 
 import Filters from './Filters'
+import Footer from './Footer'
 import Product from './Product'
 
 function Hero() {
@@ -7,6 +8,7 @@ function Hero() {
     <div>
       <Filters/>
       <Product/>
+      <Footer/>
     </div>
   )
 }
