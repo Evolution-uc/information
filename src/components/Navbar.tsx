@@ -1,8 +1,13 @@
 
 import mylogo from "../assets/logo.png";
 import { TbWorld } from "react-icons/tb";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { FaUserCircle,FaSearch  } from "react-icons/fa";
+import Down from "./Down";
+
+
+
+
+
 
 
 function Navbar() {
@@ -31,10 +36,19 @@ function Navbar() {
       </div>
       {/* Right */}
       <div className="flex items-center pr-4 font-semibold text-gray-600">
-        <p>Airbnb your home</p>
+        <p className="hidden sm:block">Airbnb your home</p>
         <TbWorld  className="mx-4"/>
         <div className="flex items-center  border px-4 py-2 rounded-full gap-3">
-          <GiHamburgerMenu className="text-[19px]" />
+          <div >
+          
+          <Down/>
+          
+         
+        
+          </div>
+          
+          
+          
           <FaUserCircle className="text-[19px]" />
         </div>
       </div>

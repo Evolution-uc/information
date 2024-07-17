@@ -30,7 +30,7 @@ function Filters() {
 
   ]
   return (
-   <div className="flex gap-7 sm:mx-6 md:mx-10 lg:mx-12 pt-3 "> 
+   <div className=" md: flex gap-7  sm:mx-6 md:mx-10 lg:mx-12 pt-3 "> 
    {Product.map((product, index) => (
      <img key={index} src={product.img} alt={`Product ${index + 1}`} />
    ))}
